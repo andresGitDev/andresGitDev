@@ -8,8 +8,8 @@
   <a href="https://www.linkedin.com/in/andres-gonzalez-2a391467/">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"  height="30" width="42" alt="linkedin logo"/>
   </a>
-  <a href="https://wa.me/5491126274012?text=I'm%20interested%20in%20your%20car%20for%20sale">
-  <img src="https://github.com/andresGitDev/andresGitDev/blob/master/ws.jpeg""  height="30" width="42" alt="whatsapp logo"/>
+  <a href="https://wa.me/5491126274012">
+  <img src="https://github.com/andresGitDev/andresGitDev/blob/master/ws.svg""  height="30" width="42" alt="whatsapp logo"/>
   </a>
 
 </div>
