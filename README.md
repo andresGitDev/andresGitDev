@@ -4,13 +4,9 @@
 - 💞️ I seek to grow and help grow in business systems projects.
 - 📫 How to contact me...
 <br clear="both">
-[![Linkedin](
 <div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" height="30" width="42" alt="visual studio logo"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" href="https://www.linkedin.com/in/andres-gonzalez-2a391467/" height="30" width="42" alt="visual studio logo"/>
 </div>
-)](https://www.linkedin.com/in/andres-gonzalez-2a391467/)
-
-
 <br clear="both">
 <div align="left">
   <img src="https://github-readme-stats.vercel.app/api?hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=codeSTACKr&locale=en&hide_border=false&username=andresGitDev"
