@@ -18,8 +18,11 @@
     <img src="https://github.com/andresGitDev/andresGitDev/blob/master/icons/ig.svg""  height="30" width="42" alt="instagram logo"/>
   </a>
   <a href="https://www.youtube.com/channel/UCFWaBO7dyM_v4TS2zAdln7Q">
-    <img src="https://github.com/andresGitDev/andresGitDev/blob/master/icons/yt.svg""  height="30" width="42" alt="instagram logo"/>
+    <img src="https://github.com/andresGitDev/andresGitDev/blob/master/icons/yt.svg""  height="30" width="42" alt="youtube logo"/>
   </a>
+  <a href="https://t.me/EsMiTelegramPersonal">
+    <img src="https://github.com/andresGitDev/andresGitDev/blob/master/icons/tg.svg""  height="30" width="42" alt="telegram logo"/>
+  </a>  
 
 </div>
 <br clear="both">
