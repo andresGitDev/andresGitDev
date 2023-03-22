@@ -4,7 +4,7 @@
 - 💞️ I seek to grow and help grow in business systems projects.
 - 📫 How to contact me...
 <div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" ref="https://www.linkedin.com/in/andres-gonzalez-2a391467/" height="30" width="42" alt="visual studio logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" height="30" width="42" alt="visual studio logo"><button ref="https://www.linkedin.com/in/andres-gonzalez-2a391467/"></button></img>
 
 </div>
 <br clear="both">
