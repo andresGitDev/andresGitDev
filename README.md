@@ -9,10 +9,13 @@
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"  height="30" width="42" alt="linkedin logo"/>
   </a>
   <a href="https://wa.me/5491126274012">
-    <img src="https://github.com/andresGitDev/andresGitDev/blob/master/ws.svg""  height="30" width="42" alt="whatsapp logo"/>
+    <img src="https://github.com/andresGitDev/andresGitDev/blob/master/icons/ws.svg""  height="30" width="42" alt="whatsapp logo"/>
   </a>
   <a href="https://www.facebook.com/andres.dev.gamer/">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg""  height="30" width="42" alt="facebook logo"/>
+  </a>
+  <a href="https://www.instagram.com/andres.dev.gamer/">
+    <img src="https://github.com/andresGitDev/andresGitDev/blob/master/icons/ig.svg""  height="30" width="42" alt="instagram logo"/>
   </a>
 
 </div>
