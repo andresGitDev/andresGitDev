@@ -11,18 +11,27 @@
   <a href="https://wa.me/5491126274012">
     <img src="https://github.com/andresGitDev/andresGitDev/blob/master/icons/ws.svg""  height="30" width="42" alt="whatsapp logo"/>
   </a>
+  <a href="https://t.me/EsMiTelegramPersonal">
+    <img src="https://github.com/andresGitDev/andresGitDev/blob/master/icons/tg.svg""  height="30" width="42" alt="telegram logo"/>
+  </a>  
+  <a href="mailto:esmicuentapersonal@gmail.com">
+    <img src="https://github.com/andresGitDev/andresGitDev/blob/master/icons/go.svg""  height="30" width="42" alt="correo logo"/>
+  </a>      
   <a href="https://www.facebook.com/andres.dev.gamer/">
     <img src="https://github.com/andresGitDev/andresGitDev/blob/master/icons/fb.svg""  height="30" width="42" alt="facebook logo"/>
   </a>
+  <a href="https://twitter.com/AndresDevGamer">
+    <img src="https://github.com/andresGitDev/andresGitDev/blob/master/icons/tw.svg""  height="30" width="42" alt="twitter logo"/>
+  </a>  
   <a href="https://www.instagram.com/andres.dev.gamer/">
     <img src="https://github.com/andresGitDev/andresGitDev/blob/master/icons/ig.svg""  height="30" width="42" alt="instagram logo"/>
   </a>
   <a href="https://www.youtube.com/channel/UCFWaBO7dyM_v4TS2zAdln7Q">
     <img src="https://github.com/andresGitDev/andresGitDev/blob/master/icons/yt.svg""  height="30" width="42" alt="youtube logo"/>
   </a>
-  <a href="https://t.me/EsMiTelegramPersonal">
-    <img src="https://github.com/andresGitDev/andresGitDev/blob/master/icons/tg.svg""  height="30" width="42" alt="telegram logo"/>
-  </a>  
+
+
+
 
 </div>
 <br clear="both">
