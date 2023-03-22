@@ -3,7 +3,12 @@
 - 🌱 I am always learning new technologies.
 - 💞️ I seek to grow and help grow in business systems projects.
 - 📫 How to contact me...
-
+<div align="left">
+  <button ref="https://www.linkedin.com/in/andres-gonzalez-2a391467/">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" height="30" width="42" alt="visual studio logo"  />
+  </button>
+</div>
+<br clear="both">
 <div align="left">
   <img src="https://github-readme-stats.vercel.app/api?hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=codeSTACKr&locale=en&hide_border=false&username=andresGitDev"
    height="150" alt="stats graph"  />
@@ -37,8 +42,6 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" height="30" width="42" alt="jenkins logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" height="30" width="42" alt="jira logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg" height="30" width="42" alt="trello logo"  />
-
-
 </div>
 
 ###
