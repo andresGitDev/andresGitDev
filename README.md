@@ -5,7 +5,8 @@
 - 📫 How to contact me...
 <br clear="both">
 <div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" href="https://www.linkedin.com/in/andres-gonzalez-2a391467/" height="30" width="42" alt="visual studio logo"/>
+  <a href="https://www.linkedin.com/in/andres-gonzalez-2a391467/">a</a>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"  height="30" width="42" alt="visual studio logo"/>
 </div>
 <br clear="both">
 <div align="left">
