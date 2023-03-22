@@ -29,10 +29,6 @@
   <a href="https://www.youtube.com/channel/UCFWaBO7dyM_v4TS2zAdln7Q">
     <img src="https://github.com/andresGitDev/andresGitDev/blob/master/icons/yt.svg""  height="30" width="42" alt="youtube logo"/>
   </a>
-
-
-
-
 </div>
 <br clear="both">
 <div align="left">
@@ -40,11 +36,9 @@
    height="150" alt="stats graph"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=codeSTACKr&hide_border=false&username=andresGitDev" height="150" alt="languages graph"  />
 </div>
-
 ###
 
 <br clear="both">
-
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" height="30" width="42" alt="visual studio logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" height="30" width="42" alt="azure logo"  />
@@ -69,13 +63,5 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" height="30" width="42" alt="jira logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg" height="30" width="42" alt="trello logo"  />
 </div>
-
 ###
-
-
 ###
-
-<!---
-rafopm/rafopm is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
