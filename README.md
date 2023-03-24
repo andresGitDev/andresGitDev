@@ -3,6 +3,7 @@
 - 🌱 I am always learning new technologies.
 - 💞️ I seek to grow and help grow in business systems projects.
 - 📫 How to contact me...
+
 <br clear="both">
 <div align="left">
   <a href="https://www.linkedin.com/in/andres-gonzalez-2a391467/">
@@ -32,6 +33,7 @@
 
 
 </div>
+
 <br clear="both">
 <div align="left">
   <img src="https://andres-readme-stats.vercel.app/api?hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=codeSTACKr&locale=en&username=andresGitDev"
@@ -41,6 +43,15 @@
 
 ###
 
+<br clear="both">
+<div align="left">
+  <a href="https://www.linkedin.com/in/andres-gonzalez-2a391467/">
+    <img src="https://github.com/andresGitDev/andresGitDev/blob/master/images/logic.png"  height="50" width="55" alt="logic logo"/>
+  </a>
+  <a href="https://www.linkedin.com/in/andres-gonzalez-2a391467/">
+    <img src="https://github.com/andresGitDev/andresGitDev/blob/master/images/java.png""  height="50" width="55" alt="java logo"/>
+  </a>
+</div>
 <br clear="both">
 
 <div align="left">
