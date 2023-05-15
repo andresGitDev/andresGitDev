@@ -51,6 +51,9 @@
   <a href="https://www.linkedin.com/in/andres-gonzalez-2a391467/">
     <img src="https://github.com/andresGitDev/andresGitDev/blob/master/images/java.png""  height="50" width="55" alt="java logo"/>
   </a>
+   <a href="https://www.linkedin.com/in/andres-gonzalez-2a391467/">
+    <img src="https://github.com/andresGitDev/andresGitDev/blob/master/images/sql-java.png""  height="50" width="55" alt="sql java logo"/>
+  </a>
 </div>
 <br clear="both">
 
