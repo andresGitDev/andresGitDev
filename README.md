@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @andresGitDev
-- 👀 I’m software development (Frontend and Backend)
+- 👀 I’m software development (Frontend-React and Backend-Java)
 - 🌱 I am always learning new technologies.
 - 💞️ I seek to grow and help grow in business systems projects.
 - 📫 How to contact me...
