@@ -45,11 +45,15 @@
 
 ### 🏅 Insignias
 
+<sub>Pasá el cursor sobre cada categoría para ver su contenido y hacé clic para desplegar.</sub>
 
-**Formación y lenguajes**
-
+<details>
+<summary title="Formación y lenguajes: Lógica, Java (Oracle ONE), SQL + Java, UTN, Java, JavaScript, TypeScript, Python, Visual Basic, SQL, HTML5, CSS3"><img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/categories/formacion.svg?v=1" height="50" width="55" alt="Formación y lenguajes"/> <b>Formación y lenguajes</b> <sub>(12)</sub></summary>
+<br>
 <div align="left">
   <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/logic.png" height="50" width="55" title="Insignia Lógica" alt="Insignia Lógica"/>
+  <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/java.png" height="50" width="55" title="Insignia Java (Oracle ONE)" alt="Insignia Java (Oracle ONE)"/>
+  <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/sql-java.png" height="50" width="55" title="Insignia SQL + Java" alt="Insignia SQL + Java"/>
   <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/badges/utn.svg?v=2" height="50" width="55" title="Insignia UTN" alt="Insignia UTN"/>
   <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/badges/java.svg?v=2" height="50" width="55" title="Insignia Java" alt="Insignia Java"/>
   <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/badges/javascript.svg?v=2" height="50" width="55" title="Insignia JavaScript" alt="Insignia JavaScript"/>
@@ -60,9 +64,11 @@
   <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/badges/html5.svg?v=2" height="50" width="55" title="Insignia HTML5" alt="Insignia HTML5"/>
   <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/badges/css3.svg?v=2" height="50" width="55" title="Insignia CSS3" alt="Insignia CSS3"/>
 </div>
+</details>
 
-**Frontend**
-
+<details>
+<summary title="Frontend: React, Redux, Vite, npm, Bootstrap, Tailwind, Node.js"><img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/categories/frontend.svg?v=1" height="50" width="55" alt="Frontend"/> <b>Frontend</b> <sub>(7)</sub></summary>
+<br>
 <div align="left">
   <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/badges/react.svg?v=2" height="50" width="55" title="Insignia React" alt="Insignia React"/>
   <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/badges/redux.svg?v=2" height="50" width="55" title="Insignia Redux" alt="Insignia Redux"/>
@@ -72,9 +78,11 @@
   <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/badges/tailwind.svg?v=2" height="50" width="55" title="Insignia Tailwind" alt="Insignia Tailwind"/>
   <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/badges/nodejs.svg?v=2" height="50" width="55" title="Insignia Node.js" alt="Insignia Node.js"/>
 </div>
+</details>
 
-**Backend**
-
+<details>
+<summary title="Backend: Spring, Hibernate, Maven, Gradle, Tomcat, Swagger, Nginx"><img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/categories/backend.svg?v=1" height="50" width="55" alt="Backend"/> <b>Backend</b> <sub>(7)</sub></summary>
+<br>
 <div align="left">
   <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/badges/spring.svg?v=2" height="50" width="55" title="Insignia Spring" alt="Insignia Spring"/>
   <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/badges/hibernate.svg?v=2" height="50" width="55" title="Insignia Hibernate" alt="Insignia Hibernate"/>
@@ -84,9 +92,11 @@
   <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/badges/swagger.svg?v=2" height="50" width="55" title="Insignia Swagger" alt="Insignia Swagger"/>
   <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/badges/nginx.svg?v=2" height="50" width="55" title="Insignia Nginx" alt="Insignia Nginx"/>
 </div>
+</details>
 
-**Bases de datos**
-
+<details>
+<summary title="Bases de datos: PostgreSQL, MySQL, MariaDB, SQL Server, Oracle, MongoDB, Redis, Firebase"><img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/categories/datos.svg?v=1" height="50" width="55" alt="Bases de datos"/> <b>Bases de datos</b> <sub>(8)</sub></summary>
+<br>
 <div align="left">
   <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/badges/postgres.svg?v=2" height="50" width="55" title="Insignia PostgreSQL" alt="Insignia PostgreSQL"/>
   <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/badges/mysql.svg?v=2" height="50" width="55" title="Insignia MySQL" alt="Insignia MySQL"/>
@@ -97,9 +107,11 @@
   <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/badges/redis.svg?v=2" height="50" width="55" title="Insignia Redis" alt="Insignia Redis"/>
   <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/badges/firebase.svg?v=2" height="50" width="55" title="Insignia Firebase" alt="Insignia Firebase"/>
 </div>
+</details>
 
-**DevOps y cloud**
-
+<details>
+<summary title="DevOps y cloud: Git, GitHub, GitLab, Bitbucket, Sourcetree, Jenkins, CI/CD, GitHub Actions, Docker, Kubernetes, Terraform, Azure, Linux, Windows, SonarQube"><img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/categories/devops.svg?v=1" height="50" width="55" alt="DevOps y cloud"/> <b>DevOps y cloud</b> <sub>(15)</sub></summary>
+<br>
 <div align="left">
   <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/badges/git.svg?v=2" height="50" width="55" title="Insignia Git" alt="Insignia Git"/>
   <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/badges/github.svg?v=2" height="50" width="55" title="Insignia GitHub" alt="Insignia GitHub"/>
@@ -117,17 +129,21 @@
   <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/badges/windows.svg?v=2" height="50" width="55" title="Insignia Windows" alt="Insignia Windows"/>
   <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/badges/sonarqube.svg?v=2" height="50" width="55" title="Insignia SonarQube" alt="Insignia SonarQube"/>
 </div>
+</details>
 
-**Testing y APIs**
-
+<details>
+<summary title="Testing y APIs: JUnit, Selenium, Postman"><img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/categories/testing.svg?v=1" height="50" width="55" alt="Testing y APIs"/> <b>Testing y APIs</b> <sub>(3)</sub></summary>
+<br>
 <div align="left">
   <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/badges/junit.svg?v=2" height="50" width="55" title="Insignia JUnit" alt="Insignia JUnit"/>
   <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/badges/selenium.svg?v=2" height="50" width="55" title="Insignia Selenium" alt="Insignia Selenium"/>
   <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/badges/postman.svg?v=2" height="50" width="55" title="Insignia Postman" alt="Insignia Postman"/>
 </div>
+</details>
 
-**IDEs y herramientas**
-
+<details>
+<summary title="IDEs y herramientas: VS Code, Visual Studio, IntelliJ, Eclipse, DBeaver, Jaspersoft, Figma"><img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/categories/ides.svg?v=1" height="50" width="55" alt="IDEs y herramientas"/> <b>IDEs y herramientas</b> <sub>(7)</sub></summary>
+<br>
 <div align="left">
   <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/badges/vsc.svg?v=2" height="50" width="55" title="Insignia VS Code" alt="Insignia VS Code"/>
   <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/badges/visualstudio.svg?v=2" height="50" width="55" title="Insignia Visual Studio" alt="Insignia Visual Studio"/>
@@ -137,9 +153,11 @@
   <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/badges/jaspersoft.svg?v=2" height="50" width="55" title="Insignia Jaspersoft" alt="Insignia Jaspersoft"/>
   <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/badges/figma.svg?v=2" height="50" width="55" title="Insignia Figma" alt="Insignia Figma"/>
 </div>
+</details>
 
-**Gestión y colaboración**
-
+<details>
+<summary title="Gestión y colaboración: Jira, Confluence, Trello, Notion, Slack"><img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/categories/gestion.svg?v=1" height="50" width="55" alt="Gestión y colaboración"/> <b>Gestión y colaboración</b> <sub>(5)</sub></summary>
+<br>
 <div align="left">
   <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/badges/jira.svg?v=2" height="50" width="55" title="Insignia Jira" alt="Insignia Jira"/>
   <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/badges/confluence.svg?v=2" height="50" width="55" title="Insignia Confluence" alt="Insignia Confluence"/>
@@ -147,9 +165,11 @@
   <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/badges/notion.svg?v=2" height="50" width="55" title="Insignia Notion" alt="Insignia Notion"/>
   <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/badges/slack.svg?v=2" height="50" width="55" title="Insignia Slack" alt="Insignia Slack"/>
 </div>
+</details>
 
-**Inteligencia artificial**
-
+<details>
+<summary title="Inteligencia artificial: Claude, ChatGPT, Gemini, Copilot, Cursor, Perplexity, OpenCode"><img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/categories/ia.svg?v=1" height="50" width="55" alt="Inteligencia artificial"/> <b>Inteligencia artificial</b> <sub>(7)</sub></summary>
+<br>
 <div align="left">
   <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/badges/claude.svg?v=2" height="50" width="55" title="Insignia Claude" alt="Insignia Claude"/>
   <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/badges/chatgpt.svg?v=2" height="50" width="55" title="Insignia ChatGPT" alt="Insignia ChatGPT"/>
@@ -159,14 +179,17 @@
   <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/badges/perplexity.svg?v=2" height="50" width="55" title="Insignia Perplexity" alt="Insignia Perplexity"/>
   <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/badges/opencode.svg?v=2" height="50" width="55" title="Insignia OpenCode" alt="Insignia OpenCode"/>
 </div>
+</details>
 
 ###
 
 ### 🛠️ Herramientas
 
+<sub>Pasá el cursor sobre cada categoría para ver su contenido y hacé clic para desplegar.</sub>
 
-**Formación y lenguajes**
-
+<details>
+<summary title="Formación y lenguajes: Java, JavaScript, TypeScript, Python, Visual Basic, SQL, HTML5, CSS3"><img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/categories/formacion.svg?v=1" height="50" width="55" alt="Formación y lenguajes"/> <b>Formación y lenguajes</b> <sub>(8)</sub></summary>
+<br>
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="30" width="42" title="Java" alt="Java"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" width="42" title="JavaScript" alt="JavaScript"/>
@@ -177,9 +200,11 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" width="42" title="HTML5" alt="HTML5"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" width="42" title="CSS3" alt="CSS3"/>
 </div>
+</details>
 
-**Frontend**
-
+<details>
+<summary title="Frontend: React, Redux, Vite, npm, Bootstrap, Tailwind, Node.js"><img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/categories/frontend.svg?v=1" height="50" width="55" alt="Frontend"/> <b>Frontend</b> <sub>(7)</sub></summary>
+<br>
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" width="42" title="React" alt="React"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" height="30" width="42" title="Redux" alt="Redux"/>
@@ -189,9 +214,11 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" height="30" width="42" title="Tailwind" alt="Tailwind"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="30" width="42" title="Node.js" alt="Node.js"/>
 </div>
+</details>
 
-**Backend**
-
+<details>
+<summary title="Backend: Spring, Hibernate, Maven, Gradle, Tomcat, Swagger, Nginx"><img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/categories/backend.svg?v=1" height="50" width="55" alt="Backend"/> <b>Backend</b> <sub>(7)</sub></summary>
+<br>
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" height="30" width="42" title="Spring" alt="Spring"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hibernate/hibernate-original.svg" height="30" width="42" title="Hibernate" alt="Hibernate"/>
@@ -201,9 +228,11 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swagger/swagger-original.svg" height="30" width="42" title="Swagger" alt="Swagger"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" height="30" width="42" title="Nginx" alt="Nginx"/>
 </div>
+</details>
 
-**Bases de datos**
-
+<details>
+<summary title="Bases de datos: PostgreSQL, MySQL, MariaDB, SQL Server, Oracle, MongoDB, Redis, Firebase"><img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/categories/datos.svg?v=1" height="50" width="55" alt="Bases de datos"/> <b>Bases de datos</b> <sub>(8)</sub></summary>
+<br>
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="30" width="42" title="PostgreSQL" alt="PostgreSQL"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="30" width="42" title="MySQL" alt="MySQL"/>
@@ -214,9 +243,11 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" height="30" width="42" title="Redis" alt="Redis"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" height="30" width="42" title="Firebase" alt="Firebase"/>
 </div>
+</details>
 
-**DevOps y cloud**
-
+<details>
+<summary title="DevOps y cloud: Git, GitHub, GitLab, Bitbucket, Sourcetree, Jenkins, CI/CD, Docker, Kubernetes, Terraform, Azure, Linux, Windows, SonarQube"><img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/categories/devops.svg?v=1" height="50" width="55" alt="DevOps y cloud"/> <b>DevOps y cloud</b> <sub>(14)</sub></summary>
+<br>
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="30" width="42" title="Git" alt="Git"/>
   <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/icons/gh.svg" height="30" width="42" title="GitHub" alt="GitHub"/>
@@ -233,17 +264,21 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows11/windows11-original.svg" height="30" width="42" title="Windows" alt="Windows"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sonarqube/sonarqube-original.svg" height="30" width="42" title="SonarQube" alt="SonarQube"/>
 </div>
+</details>
 
-**Testing y APIs**
-
+<details>
+<summary title="Testing y APIs: JUnit, Selenium, Postman"><img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/categories/testing.svg?v=1" height="50" width="55" alt="Testing y APIs"/> <b>Testing y APIs</b> <sub>(3)</sub></summary>
+<br>
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/junit/junit-original.svg" height="30" width="42" title="JUnit" alt="JUnit"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" height="30" width="42" title="Selenium" alt="Selenium"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" height="30" width="42" title="Postman" alt="Postman"/>
 </div>
+</details>
 
-**IDEs y herramientas**
-
+<details>
+<summary title="IDEs y herramientas: VS Code, Visual Studio, IntelliJ, Eclipse, DBeaver, Jaspersoft, Figma"><img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/categories/ides.svg?v=1" height="50" width="55" alt="IDEs y herramientas"/> <b>IDEs y herramientas</b> <sub>(7)</sub></summary>
+<br>
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="30" width="42" title="VS Code" alt="VS Code"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" height="30" width="42" title="Visual Studio" alt="Visual Studio"/>
@@ -253,9 +288,11 @@
   <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/icons/jaspersoft.svg" height="30" width="42" title="Jaspersoft" alt="Jaspersoft"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="30" width="42" title="Figma" alt="Figma"/>
 </div>
+</details>
 
-**Gestión y colaboración**
-
+<details>
+<summary title="Gestión y colaboración: Jira, Confluence, Trello, Notion, Slack"><img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/categories/gestion.svg?v=1" height="50" width="55" alt="Gestión y colaboración"/> <b>Gestión y colaboración</b> <sub>(5)</sub></summary>
+<br>
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" height="30" width="42" title="Jira" alt="Jira"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/confluence/confluence-original.svg" height="30" width="42" title="Confluence" alt="Confluence"/>
@@ -263,9 +300,11 @@
   <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/icons/notion.svg" height="30" width="42" title="Notion" alt="Notion"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg" height="30" width="42" title="Slack" alt="Slack"/>
 </div>
+</details>
 
-**Inteligencia artificial**
-
+<details>
+<summary title="Inteligencia artificial: Claude, ChatGPT, Gemini, Copilot, Cursor, Perplexity, OpenCode"><img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/categories/ia.svg?v=1" height="50" width="55" alt="Inteligencia artificial"/> <b>Inteligencia artificial</b> <sub>(7)</sub></summary>
+<br>
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/claude/claude-original.svg" height="30" width="42" title="Claude" alt="Claude"/>
   <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/icons/chatgpt.svg" height="30" width="42" title="ChatGPT" alt="ChatGPT"/>
@@ -275,6 +314,7 @@
   <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/icons/perplexity.svg" height="30" width="42" title="Perplexity" alt="Perplexity"/>
   <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/icons/opencode.svg" height="30" width="42" title="OpenCode" alt="OpenCode"/>
 </div>
+</details>
 
 ###
 
