@@ -7,28 +7,28 @@
 <br clear="both">
 <div align="left">
   <a href="https://www.linkedin.com/in/andres-gonzalez-2a391467/">
-    <img src="https://github.com/andresGitDev/andresGitDev/blob/master/icons/li.svg"  height="30" width="42" alt="linkedin logo"/>
+    <img src="https://github.com/andresGitDev/andresGitDev/blob/main/icons/li.svg"  height="30" width="42" alt="linkedin logo"/>
   </a>
   <a href="https://wa.me/5491126274012">
-    <img src="https://github.com/andresGitDev/andresGitDev/blob/master/icons/ws.svg""  height="30" width="42" alt="whatsapp logo"/>
+    <img src="https://github.com/andresGitDev/andresGitDev/blob/main/icons/ws.svg"  height="30" width="42" alt="whatsapp logo"/>
   </a>
   <a href="https://t.me/EsMiTelegramPersonal">
-    <img src="https://github.com/andresGitDev/andresGitDev/blob/master/icons/tg.svg""  height="30" width="42" alt="telegram logo"/>
+    <img src="https://github.com/andresGitDev/andresGitDev/blob/main/icons/tg.svg"  height="30" width="42" alt="telegram logo"/>
   </a>  
   <a href="mailto:esmicuentapersonal@gmail.com">
-    <img src="https://github.com/andresGitDev/andresGitDev/blob/master/icons/go.svg""  height="30" width="42" alt="correo logo"/>
+    <img src="https://github.com/andresGitDev/andresGitDev/blob/main/icons/go.svg"  height="30" width="42" alt="correo logo"/>
   </a>      
   <a href="https://www.facebook.com/andres.dev.gamer/">
-    <img src="https://github.com/andresGitDev/andresGitDev/blob/master/icons/fb.svg""  height="30" width="42" alt="facebook logo"/>
+    <img src="https://github.com/andresGitDev/andresGitDev/blob/main/icons/fb.svg"  height="30" width="42" alt="facebook logo"/>
   </a>
   <a href="https://twitter.com/AndresDevGamer">
-    <img src="https://github.com/andresGitDev/andresGitDev/blob/master/icons/tw.svg""  height="30" width="42" alt="twitter logo"/>
+    <img src="https://github.com/andresGitDev/andresGitDev/blob/main/icons/tw.svg"  height="30" width="42" alt="twitter logo"/>
   </a>  
   <a href="https://www.instagram.com/andres.develop/">
-    <img src="https://github.com/andresGitDev/andresGitDev/blob/master/icons/ig.svg""  height="30" width="42" alt="instagram logo"/>
+    <img src="https://github.com/andresGitDev/andresGitDev/blob/main/icons/ig.svg"  height="30" width="42" alt="instagram logo"/>
   </a>
   <a href="https://www.youtube.com/channel/UCFWaBO7dyM_v4TS2zAdln7Q">
-    <img src="https://github.com/andresGitDev/andresGitDev/blob/master/icons/yt.svg""  height="30" width="42" alt="youtube logo"/>
+    <img src="https://github.com/andresGitDev/andresGitDev/blob/main/icons/yt.svg"  height="30" width="42" alt="youtube logo"/>
   </a>
 
 
@@ -46,13 +46,13 @@
 <br clear="both">
 <div align="left">
   <a href="https://www.linkedin.com/in/andres-gonzalez-2a391467/">
-    <img src="https://github.com/andresGitDev/andresGitDev/blob/master/images/logic.png"  height="50" width="55" alt="logic logo"/>
+    <img src="https://github.com/andresGitDev/andresGitDev/blob/main/images/logic.png"  height="50" width="55" alt="logic logo"/>
   </a>
   <a href="https://www.linkedin.com/in/andres-gonzalez-2a391467/">
-    <img src="https://github.com/andresGitDev/andresGitDev/blob/master/images/java.png""  height="50" width="55" alt="java logo"/>
+    <img src="https://github.com/andresGitDev/andresGitDev/blob/main/images/java.png"  height="50" width="55" alt="java logo"/>
   </a>
    <a href="https://www.linkedin.com/in/andres-gonzalez-2a391467/">
-    <img src="https://github.com/andresGitDev/andresGitDev/blob/master/images/sql-java.png""  height="50" width="55" alt="sql java logo"/>
+    <img src="https://github.com/andresGitDev/andresGitDev/blob/main/images/sql-java.png"  height="50" width="55" alt="sql java logo"/>
   </a>
 </div>
 <br clear="both">
@@ -61,7 +61,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" height="30" width="42" alt="visual studio logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" height="30" width="42" alt="azure logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bitbucket/bitbucket-original.svg" height="30" width="42" alt="bitbucket logo"  />
-  <img src="https://github.com/andresGitDev/andresGitDev/blob/master/icons/gh.svg" height="30" width="42" alt="github logo"  />
+  <img src="https://github.com/andresGitDev/andresGitDev/blob/main/icons/gh.svg" height="30" width="42" alt="github logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" height="30" width="42" alt="gitlab logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="30" width="42" alt="git logo"  />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" width="42" alt="html5 logo"  />
