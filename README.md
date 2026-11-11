@@ -54,8 +54,29 @@
    <a href="https://www.linkedin.com/in/andres-gonzalez-2a391467/">
     <img src="https://github.com/andresGitDev/andresGitDev/blob/main/images/sql-java.png"  height="50" width="55" alt="sql java logo"/>
   </a>
-</div>
-<br clear="both">
+  <img src="https://github.com/andresGitDev/andresGitDev/blob/main/images/badges/utn.svg" height="50" width="55" alt="utn badge"/>
+  <img src="https://github.com/andresGitDev/andresGitDev/blob/main/images/badges/vb6.svg" height="50" width="55" alt="vb6 badge"/>
+  <img src="https://github.com/andresGitDev/andresGitDev/blob/main/images/badges/postgres.svg" height="50" width="55" alt="postgres badge"/>
+  <img src="https://github.com/andresGitDev/andresGitDev/blob/main/images/badges/eclipse.svg" height="50" width="55" alt="eclipse badge"/>
+  <img src="https://github.com/andresGitDev/andresGitDev/blob/main/images/badges/vsc.svg" height="50" width="55" alt="vsc badge"/>
+  <img src="https://github.com/andresGitDev/andresGitDev/blob/main/images/badges/postman.svg" height="50" width="55" alt="postman badge"/>
+  <img src="https://github.com/andresGitDev/andresGitDev/blob/main/images/badges/dbeaver.svg" height="50" width="55" alt="dbeaver badge"/>
+  <img src="https://github.com/andresGitDev/andresGitDev/blob/main/images/badges/sourcetree.svg" height="50" width="55" alt="sourcetree badge"/>
+  <img src="https://github.com/andresGitDev/andresGitDev/blob/main/images/badges/jaspersoft.svg" height="50" width="55" alt="jaspersoft badge"/>
+  <img src="https://github.com/andresGitDev/andresGitDev/blob/main/images/badges/git.svg" height="50" width="55" alt="git badge"/>
+  <img src="https://github.com/andresGitDev/andresGitDev/blob/main/images/badges/gitlab.svg" height="50" width="55" alt="gitlab badge"/>
+  <img src="https://github.com/andresGitDev/andresGitDev/blob/main/images/badges/github.svg" height="50" width="55" alt="github badge"/>
+  <img src="https://github.com/andresGitDev/andresGitDev/blob/main/images/badges/cicd.svg" height="50" width="55" alt="cicd badge"/>
+  <img src="https://github.com/andresGitDev/andresGitDev/blob/main/images/badges/sqlserver.svg" height="50" width="55" alt="sqlserver badge"/>
+  <img src="https://github.com/andresGitDev/andresGitDev/blob/main/images/badges/oracle.svg" height="50" width="55" alt="oracle badge"/>
+  <img src="https://github.com/andresGitDev/andresGitDev/blob/main/images/badges/docker.svg" height="50" width="55" alt="docker badge"/>
+  <img src="https://github.com/andresGitDev/andresGitDev/blob/main/images/badges/azure.svg" height="50" width="55" alt="azure badge"/>
+  <img src="https://github.com/andresGitDev/andresGitDev/blob/main/images/badges/jira.svg" height="50" width="55" alt="jira badge"/>
+  <img src="https://github.com/andresGitDev/andresGitDev/blob/main/images/badges/opencode.svg" height="50" width="55" alt="opencode badge"/>
+  <img src="https://github.com/andresGitDev/andresGitDev/blob/main/images/badges/gemini.svg" height="50" width="55" alt="gemini badge"/>
+  <img src="https://github.com/andresGitDev/andresGitDev/blob/main/images/badges/chatgpt.svg" height="50" width="55" alt="chatgpt badge"/>
+  <img src="https://github.com/andresGitDev/andresGitDev/blob/main/images/badges/claude.svg" height="50" width="55" alt="claude badge"/>
+</div><br clear="both">
 
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" height="30" width="42" alt="visual studio logo"  />
