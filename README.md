@@ -24,7 +24,7 @@
   <a href="https://twitter.com/AndresDevGamer">
     <img src="https://github.com/andresGitDev/andresGitDev/blob/master/icons/tw.svg""  height="30" width="42" alt="twitter logo"/>
   </a>  
-  <a href="https://www.instagram.com/andres.dev.gamer/">
+  <a href="https://www.instagram.com/andres.develop/">
     <img src="https://github.com/andresGitDev/andresGitDev/blob/master/icons/ig.svg""  height="30" width="42" alt="instagram logo"/>
   </a>
   <a href="https://www.youtube.com/channel/UCFWaBO7dyM_v4TS2zAdln7Q">
