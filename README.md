@@ -21,7 +21,7 @@
   <a href="https://www.facebook.com/andres.dev.gamer/">
     <img src="https://github.com/andresGitDev/andresGitDev/blob/main/icons/fb.svg"  height="30" width="42" alt="facebook logo"/>
   </a>
-  <a href="https://twitter.com/AndresDevGamer">
+  <a href="https://x.com/AndresDevGamer">
     <img src="https://github.com/andresGitDev/andresGitDev/blob/main/icons/tw.svg"  height="30" width="42" alt="twitter logo"/>
   </a>  
   <a href="https://www.instagram.com/andres.develop/">
