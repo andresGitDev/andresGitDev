@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Andres.Git.Dev · Portfolio</title>
+<meta name="description" content="Portfolio de Andrés (andresGitDev): desarrollo de software Frontend con React y Backend con Java. Insignias, herramientas y tecnologías.">
+<meta property="og:title" content="Andres.Git.Dev · Portfolio">
+<meta property="og:description" content="Desarrollo de software Frontend (React) y Backend (Java). Insignias, herramientas y tecnologías.">
+<meta property="og:image" content="https://github.com/andresGitDev.png">
+<link rel="icon" href="assets/categories/ides.svg">
+<style>
+:root{
+  color-scheme: dark light;
+  --bg:#0b1118; --bg2:#101923; --card:#121c27; --line:#223142; --text:#e6edf3; --muted:#9fb0c0;
+  --accent:#e08a2e; --accent2:#4aa3ff; --radius:16px; --shadow:0 10px 30px rgba(0,0,0,.35);
+}
+@media (prefers-color-scheme: light){
+  :root:not([data-theme="dark"]){--bg:#f4f8fb;--bg2:#e9f0f6;--card:#fff;--line:#d5e0ea;--text:#13202c;--muted:#546577;--shadow:0 10px 30px rgba(20,40,60,.12)}
+}
+:root[data-theme="light"]{--bg:#f4f8fb;--bg2:#e9f0f6;--card:#fff;--line:#d5e0ea;--text:#13202c;--muted:#546577;--shadow:0 10px 30px rgba(20,40,60,.12)}
+:root[data-theme="dark"]{--bg:#0b1118;--bg2:#101923;--card:#121c27;--line:#223142;--text:#e6edf3;--muted:#9fb0c0}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+a{color:inherit}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+header.top{position:sticky;top:0;z-index:20;backdrop-filter:blur(10px);background:color-mix(in srgb,var(--bg) 85%,transparent);border-bottom:1px solid var(--line)}
+header.top .wrap{display:flex;align-items:center;gap:16px;height:60px}
+.brand{font-weight:800;text-decoration:none;letter-spacing:.2px}
+.brand span{color:var(--accent)}
+nav{display:flex;gap:4px;margin-left:auto;flex-wrap:wrap}
+nav a{text-decoration:none;color:var(--muted);padding:6px 12px;border-radius:999px;font-size:14px}
+nav a:hover{background:var(--bg2);color:var(--text)}
+#theme{margin-left:4px;border:1px solid var(--line);background:var(--card);color:var(--text);border-radius:999px;width:36px;height:36px;cursor:pointer;font-size:16px}
+.hero{padding:56px 0 24px;display:grid;grid-template-columns:auto 1fr;gap:32px;align-items:center}
+.avatar{width:168px;height:168px;border-radius:50%;border:4px solid var(--accent);box-shadow:var(--shadow);object-fit:cover;background:var(--bg2)}
+.hero h1{margin:0;font-size:clamp(30px,5vw,46px);line-height:1.1}
+.hero h1 small{display:block;font-size:16px;font-weight:500;color:var(--muted);margin-top:6px}
+.bio{list-style:none;padding:0;margin:18px 0 0;display:grid;gap:8px}
+.bio li{display:flex;gap:10px;align-items:flex-start}
+.contact{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+.contact a{display:flex;align-items:center;justify-content:center;width:48px;height:48px;border-radius:14px;background:var(--card);border:1px solid var(--line);transition:transform .15s,border-color .15s}
+.contact a:hover,.contact a:focus-visible{transform:translateY(-3px);border-color:var(--accent);outline:none}
+.contact img{width:28px;height:28px}
+section{padding:36px 0}
+h2{font-size:26px;margin:0 0 6px}
+.lead{color:var(--muted);margin:0 0 20px}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{padding:6px 14px;border-radius:999px;background:var(--card);border:1px solid var(--line);font-size:14px}
+.chip.place{border-color:var(--accent)}
+/* skills */
+.search{width:100%;padding:12px 16px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--text);font-size:16px;margin-bottom:18px}
+.search:focus{outline:2px solid var(--accent2);border-color:transparent}
+.cats{display:grid;grid-template-columns:repeat(9,1fr);gap:10px}
+.cat{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:10px 4px 8px;text-align:center;cursor:pointer;color:var(--text);transition:transform .18s,border-color .18s,background .18s;font:inherit}
+.cat img{width:64px;height:64px;display:block;margin:0 auto 4px;transition:transform .18s}
+.cat span{display:block;font-size:12px;line-height:1.25;color:var(--muted)}
+.cat:hover,.cat:focus-visible{transform:translateY(-4px);border-color:var(--accent);outline:none}
+.cat:hover img{transform:scale(1.1)}
+.cat[aria-selected="true"]{border-color:var(--accent);background:color-mix(in srgb,var(--accent) 12%,var(--card))}
+.cat[aria-selected="true"] span{color:var(--text);font-weight:600}
+.panel{margin-top:18px;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:22px;box-shadow:var(--shadow);animation:in .25s ease}
+@keyframes in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.panel h3{margin:0;font-size:20px}
+.panel .desc{margin:2px 0 18px;color:var(--muted)}
+.group{margin-top:8px}
+.group h4{margin:16px 0 10px;font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);display:flex;align-items:center;gap:8px}
+.group h4::after{content:"";flex:1;height:1px;background:var(--line)}
+.grid{display:grid;gap:12px}
+.grid.badges{grid-template-columns:repeat(auto-fill,minmax(96px,1fr))}
+.grid.tools{grid-template-columns:repeat(auto-fill,minmax(84px,1fr))}
+.item{display:flex;flex-direction:column;align-items:center;gap:6px;text-align:center;text-decoration:none;padding:8px 4px;border-radius:14px;border:1px solid transparent;transition:transform .18s,background .18s,border-color .18s}
+.item:hover,.item:focus-visible{transform:translateY(-4px) scale(1.04);background:var(--bg2);border-color:var(--line);outline:none}
+.item img{width:84px;height:84px;object-fit:contain}
+.tools .item img{width:48px;height:48px;padding:0}
+.tools .item{padding:12px 4px}
+.item b{font-size:12px;font-weight:600;line-height:1.2}
+.empty{color:var(--muted);padding:16px 0}
+.count{font-weight:400;color:var(--muted);font-size:14px;margin-left:6px}
+/* stats */
+.stats{display:flex;gap:16px;flex-wrap:wrap}
+.stats img{max-width:100%;border-radius:var(--radius);border:1px solid var(--line);background:#0b1118}
+footer{padding:32px 0 48px;color:var(--muted);border-top:1px solid var(--line);margin-top:24px;font-size:14px;text-align:center}
+@media (max-width:900px){.cats{grid-template-columns:repeat(3,1fr)}.hero{grid-template-columns:1fr;text-align:center;justify-items:center}.bio li{text-align:left}.contact{justify-content:center}nav a{padding:6px 8px}}
+@media (max-width:520px){nav{display:none}.cat img{width:52px;height:52px}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="brand" href="#inicio">Andres<span>.Git.</span>Dev</a>
+  <nav aria-label="Principal"><a href="#inicio">Sobre mí</a><a href="#habilidades">Insignias y herramientas</a><a href="#estadisticas">Estadísticas</a></nav>
+  <button id="theme" type="button" aria-label="Cambiar tema" title="Cambiar tema">🌓</button>
+</div></header>
+
+<main class="wrap">
+<section id="inicio" class="hero">
+  <img class="avatar" src="https://github.com/andresGitDev.png" alt="Foto de perfil de Andrés" width="168" height="168">
+  <div>
+    <h1>Hola, soy @andresGitDev <small>Andres.Git.Dev · Desarrollador de software</small></h1>
+    <ul class="bio">
+      <li><span>👋</span><span>Hola, soy @andresGitDev</span></li>
+      <li><span>👀</span><span>Hago desarrollo de software: Frontend con React y Backend con Java.</span></li>
+      <li><span>🌱</span><span>Siempre estoy aprendiendo nuevas tecnologías.</span></li>
+      <li><span>💞️</span><span>Busco crecer y ayudar a crecer en proyectos de sistemas de negocio.</span></li>
+      <li><span>📫</span><span>Cómo contactarme…</span></li>
+    </ul>
+    <div class="contact" aria-label="Contacto">
+      <a href="https://www.linkedin.com/in/andres-gonzalez-2a391467/" target="_blank" rel="noopener" title="LinkedIn" aria-label="LinkedIn"><img src="assets/icons/li.svg" alt=""></a>
+      <a href="https://wa.me/5491126274012" target="_blank" rel="noopener" title="WhatsApp" aria-label="WhatsApp"><img src="assets/icons/ws.svg" alt=""></a>
+      <a href="https://t.me/EsMiTelegramPersonal" target="_blank" rel="noopener" title="Telegram" aria-label="Telegram"><img src="assets/icons/tg.svg" alt=""></a>
+      <a href="mailto:esmicuentapersonal@gmail.com" title="Correo" aria-label="Correo"><img src="assets/icons/go.svg" alt=""></a>
+      <a href="https://www.facebook.com/andres.dev.gamer/" target="_blank" rel="noopener" title="Facebook" aria-label="Facebook"><img src="assets/icons/fb.svg" alt=""></a>
+      <a href="https://x.com/AndresDevGamer" target="_blank" rel="noopener" title="Twitter / X" aria-label="Twitter / X"><img src="assets/icons/tw.svg" alt=""></a>
+      <a href="https://www.instagram.com/andres.develop/" target="_blank" rel="noopener" title="Instagram" aria-label="Instagram"><img src="assets/icons/ig.svg" alt=""></a>
+      <a href="https://www.youtube.com/channel/UCFWaBO7dyM_v4TS2zAdln7Q" target="_blank" rel="noopener" title="YouTube" aria-label="YouTube"><img src="assets/icons/yt.svg" alt=""></a>
+    </div>
+  </div>
+</section>
+
+<section aria-label="Trayectoria">
+  <h2>Trayectoria</h2>
+  <p class="lead">Empresas y proyectos donde trabajé.</p>
+  <div class="chips">
+    <span class="chip">Betasepp</span><span class="chip">NatConsultores</span><span class="chip">TodoUno</span><span class="chip">BanColombia</span><span class="chip">GeoCom</span><span class="chip">CHRobinson</span>
+    <span class="chip place">📍 Argentina, Buenos Aires, Quilmes</span>
+  </div>
+</section>
+
+<section id="habilidades">
+  <h2>Insignias y herramientas</h2>
+  <p class="lead">Pasá el cursor (o tocá) una categoría para ver sus insignias y herramientas. También podés buscar por nombre.</p>
+  <input id="q" class="search" type="search" placeholder="Buscar tecnología… (por ejemplo: docker, java, react)" autocomplete="off" aria-label="Buscar tecnología">
+  <div id="cats" class="cats" role="tablist" aria-label="Categorías"></div>
+  <div id="panel" class="panel" role="tabpanel" aria-live="polite"></div>
+</section>
+
+<section id="estadisticas">
+  <h2>Estadísticas de GitHub</h2>
+  <p class="lead">Actividad y lenguajes más usados.</p>
+  <div class="stats">
+    <img height="150" alt="Estadísticas de GitHub" loading="lazy" src="https://andres-readme-stats.vercel.app/api?hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=codeSTACKr&locale=en&username=andresGitDev">
+    <img height="150" alt="Lenguajes más usados" loading="lazy" src="https://andres-readme-stats.vercel.app/api/top-langs?locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=codeSTACKr&username=andresGitDev">
+  </div>
+</section>
+</main>
+
+<footer><div class="wrap">© <span id="y"></span> Andres.Git.Dev · <a href="https://github.com/andresGitDev">GitHub</a></div></footer>
+
+<script>
+const DATA = [{"slug": "formacion", "name": "Formación y lenguajes", "desc": "Estudios y lenguajes con los que trabajo.", "icon": "assets/categories/formacion.svg?v=1", "badges": [{"img": "assets/images/logic.png", "name": "Lógica", "link": "https://www.linkedin.com/in/andres-gonzalez-2a391467/"}, {"img": "assets/images/java.png", "name": "Java (Oracle ONE)", "link": "https://www.linkedin.com/in/andres-gonzalez-2a391467/"}, {"img": "assets/images/sql-java.png", "name": "SQL + Java", "link": "https://www.linkedin.com/in/andres-gonzalez-2a391467/"}, {"img": "assets/badges/utn.svg?v=2", "name": "UTN"}, {"img": "assets/badges/java.svg?v=2", "name": "Java"}, {"img": "assets/badges/javascript.svg?v=2", "name": "JavaScript"}, {"img": "assets/badges/typescript.svg?v=2", "name": "TypeScript"}, {"img": "assets/badges/python.svg?v=2", "name": "Python"}, {"img": "assets/badges/vb6.svg?v=2", "name": "Visual Basic"}, {"img": "assets/badges/sql.svg?v=2", "name": "SQL"}, {"img": "assets/badges/html5.svg?v=2", "name": "HTML5"}, {"img": "assets/badges/css3.svg?v=2", "name": "CSS3"}], "tools": [{"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg", "name": "Java"}, {"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg", "name": "JavaScript"}, {"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg", "name": "TypeScript"}, {"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg", "name": "Python"}, {"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualbasic/visualbasic-original.svg", "name": "Visual Basic"}, {"img": "assets/icons/sql.svg", "name": "SQL"}, {"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg", "name": "HTML5"}, {"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg", "name": "CSS3"}]}, {"slug": "frontend", "name": "Frontend", "desc": "Interfaces web y su ecosistema.", "icon": "assets/categories/frontend.svg?v=1", "badges": [{"img": "assets/badges/react.svg?v=2", "name": "React"}, {"img": "assets/badges/redux.svg?v=2", "name": "Redux"}, {"img": "assets/badges/vite.svg?v=2", "name": "Vite"}, {"img": "assets/badges/npm.svg?v=2", "name": "npm"}, {"img": "assets/badges/bootstrap.svg?v=2", "name": "Bootstrap"}, {"img": "assets/badges/tailwind.svg?v=2", "name": "Tailwind"}, {"img": "assets/badges/nodejs.svg?v=2", "name": "Node.js"}], "tools": [{"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg", "name": "React"}, {"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg", "name": "Redux"}, {"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg", "name": "Vite"}, {"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original.svg", "name": "npm"}, {"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg", "name": "Bootstrap"}, {"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg", "name": "Tailwind"}, {"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg", "name": "Node.js"}]}, {"slug": "backend", "name": "Backend", "desc": "Servicios, frameworks y servidores.", "icon": "assets/categories/backend.svg?v=1", "badges": [{"img": "assets/badges/spring.svg?v=2", "name": "Spring"}, {"img": "assets/badges/hibernate.svg?v=2", "name": "Hibernate"}, {"img": "assets/badges/maven.svg?v=2", "name": "Maven"}, {"img": "assets/badges/gradle.svg?v=2", "name": "Gradle"}, {"img": "assets/badges/tomcat.svg?v=2", "name": "Tomcat"}, {"img": "assets/badges/swagger.svg?v=2", "name": "Swagger"}, {"img": "assets/badges/nginx.svg?v=2", "name": "Nginx"}], "tools": [{"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg", "name": "Spring"}, {"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hibernate/hibernate-original.svg", "name": "Hibernate"}, {"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg", "name": "Maven"}, {"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gradle/gradle-original.svg", "name": "Gradle"}, {"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tomcat/tomcat-original.svg", "name": "Tomcat"}, {"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swagger/swagger-original.svg", "name": "Swagger"}, {"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg", "name": "Nginx"}]}, {"slug": "datos", "name": "Bases de datos", "desc": "Motores relacionales y NoSQL.", "icon": "assets/categories/datos.svg?v=1", "badges": [{"img": "assets/badges/postgres.svg?v=2", "name": "PostgreSQL"}, {"img": "assets/badges/mysql.svg?v=2", "name": "MySQL"}, {"img": "assets/badges/mariadb.svg?v=2", "name": "MariaDB"}, {"img": "assets/badges/sqlserver.svg?v=2", "name": "SQL Server"}, {"img": "assets/badges/oracle.svg?v=2", "name": "Oracle"}, {"img": "assets/badges/mongodb.svg?v=2", "name": "MongoDB"}, {"img": "assets/badges/redis.svg?v=2", "name": "Redis"}, {"img": "assets/badges/firebase.svg?v=2", "name": "Firebase"}], "tools": [{"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg", "name": "PostgreSQL"}, {"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg", "name": "MySQL"}, {"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mariadb/mariadb-original.svg", "name": "MariaDB"}, {"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg", "name": "SQL Server"}, {"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg", "name": "Oracle"}, {"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg", "name": "MongoDB"}, {"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg", "name": "Redis"}, {"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg", "name": "Firebase"}]}, {"slug": "devops", "name": "DevOps y cloud", "desc": "Control de versiones, integración continua, contenedores y nube.", "icon": "assets/categories/devops.svg?v=1", "badges": [{"img": "assets/badges/git.svg?v=2", "name": "Git"}, {"img": "assets/badges/github.svg?v=2", "name": "GitHub"}, {"img": "assets/badges/gitlab.svg?v=2", "name": "GitLab"}, {"img": "assets/badges/bitbucket.svg?v=2", "name": "Bitbucket"}, {"img": "assets/badges/sourcetree.svg?v=2", "name": "Sourcetree"}, {"img": "assets/badges/jenkins.svg?v=2", "name": "Jenkins"}, {"img": "assets/badges/cicd.svg?v=2", "name": "CI/CD"}, {"img": "assets/badges/actions.svg?v=2", "name": "GitHub Actions"}, {"img": "assets/badges/docker.svg?v=2", "name": "Docker"}, {"img": "assets/badges/kubernetes.svg?v=2", "name": "Kubernetes"}, {"img": "assets/badges/terraform.svg?v=2", "name": "Terraform"}, {"img": "assets/badges/azure.svg?v=2", "name": "Azure"}, {"img": "assets/badges/linux.svg?v=2", "name": "Linux"}, {"img": "assets/badges/windows.svg?v=2", "name": "Windows"}, {"img": "assets/badges/sonarqube.svg?v=2", "name": "SonarQube"}], "tools": [{"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg", "name": "Git"}, {"img": "assets/icons/gh.svg", "name": "GitHub"}, {"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg", "name": "GitLab"}, {"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bitbucket/bitbucket-original.svg", "name": "Bitbucket"}, {"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sourcetree/sourcetree-original.svg", "name": "Sourcetree"}, {"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg", "name": "Jenkins"}, {"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg", "name": "CI/CD"}, {"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg", "name": "Docker"}, {"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-original.svg", "name": "Kubernetes"}, {"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg", "name": "Terraform"}, {"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg", "name": "Azure"}, {"img": "assets/icons/linux.svg", "name": "Linux"}, {"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows11/windows11-original.svg", "name": "Windows"}, {"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sonarqube/sonarqube-original.svg", "name": "SonarQube"}]}, {"slug": "testing", "name": "Testing y APIs", "desc": "Pruebas automáticas y herramientas de APIs.", "icon": "assets/categories/testing.svg?v=1", "badges": [{"img": "assets/badges/junit.svg?v=2", "name": "JUnit"}, {"img": "assets/badges/selenium.svg?v=2", "name": "Selenium"}, {"img": "assets/badges/postman.svg?v=2", "name": "Postman"}], "tools": [{"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/junit/junit-original.svg", "name": "JUnit"}, {"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg", "name": "Selenium"}, {"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg", "name": "Postman"}]}, {"slug": "ides", "name": "IDEs y herramientas", "desc": "Entornos de desarrollo y utilidades diarias.", "icon": "assets/categories/ides.svg?v=1", "badges": [{"img": "assets/badges/vsc.svg?v=2", "name": "VS Code"}, {"img": "assets/badges/visualstudio.svg?v=2", "name": "Visual Studio"}, {"img": "assets/badges/intellij.svg?v=2", "name": "IntelliJ"}, {"img": "assets/badges/eclipse.svg?v=2", "name": "Eclipse"}, {"img": "assets/badges/dbeaver.svg?v=2", "name": "DBeaver"}, {"img": "assets/badges/jaspersoft.svg?v=2", "name": "Jaspersoft"}, {"img": "assets/badges/figma.svg?v=2", "name": "Figma"}], "tools": [{"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg", "name": "VS Code"}, {"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg", "name": "Visual Studio"}, {"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg", "name": "IntelliJ"}, {"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eclipse/eclipse-original.svg", "name": "Eclipse"}, {"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dbeaver/dbeaver-original.svg", "name": "DBeaver"}, {"img": "assets/icons/jaspersoft.svg", "name": "Jaspersoft"}, {"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg", "name": "Figma"}]}, {"slug": "gestion", "name": "Gestión y colaboración", "desc": "Seguimiento de proyectos y trabajo en equipo.", "icon": "assets/categories/gestion.svg?v=1", "badges": [{"img": "assets/badges/jira.svg?v=2", "name": "Jira"}, {"img": "assets/badges/confluence.svg?v=2", "name": "Confluence"}, {"img": "assets/badges/trello.svg?v=2", "name": "Trello"}, {"img": "assets/badges/notion.svg?v=2", "name": "Notion"}, {"img": "assets/badges/slack.svg?v=2", "name": "Slack"}], "tools": [{"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg", "name": "Jira"}, {"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/confluence/confluence-original.svg", "name": "Confluence"}, {"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg", "name": "Trello"}, {"img": "assets/icons/notion.svg", "name": "Notion"}, {"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg", "name": "Slack"}]}, {"slug": "ia", "name": "Inteligencia artificial", "desc": "Asistentes y agentes de IA para programar.", "icon": "assets/categories/ia.svg?v=1", "badges": [{"img": "assets/badges/claude.svg?v=2", "name": "Claude"}, {"img": "assets/badges/chatgpt.svg?v=2", "name": "ChatGPT"}, {"img": "assets/badges/gemini.svg?v=2", "name": "Gemini"}, {"img": "assets/badges/copilot.svg?v=2", "name": "Copilot"}, {"img": "assets/badges/cursor.svg?v=2", "name": "Cursor"}, {"img": "assets/badges/perplexity.svg?v=2", "name": "Perplexity"}, {"img": "assets/badges/opencode.svg?v=2", "name": "OpenCode"}], "tools": [{"img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/claude/claude-original.svg", "name": "Claude"}, {"img": "assets/icons/chatgpt.svg", "name": "ChatGPT"}, {"img": "assets/icons/gemini.svg", "name": "Gemini"}, {"img": "assets/icons/copilot.svg", "name": "Copilot"}, {"img": "assets/icons/cursor.svg", "name": "Cursor"}, {"img": "assets/icons/perplexity.svg", "name": "Perplexity"}, {"img": "assets/icons/opencode.svg", "name": "OpenCode"}]}];
+const $ = s => document.querySelector(s);
+const catsEl = $("#cats"), panel = $("#panel"), q = $("#q");
+let current = DATA[0].slug;
+
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
+function badge(b){
+  const tag = b.link ? 'a' : 'div';
+  const attrs = b.link ? ` href="${esc(b.link)}" target="_blank" rel="noopener"` : ' tabindex="0"';
+  return `<${tag} class="item"${attrs} title="Insignia ${esc(b.name)}"><img src="${esc(b.img)}" alt="Insignia ${esc(b.name)}" loading="lazy"><b>${esc(b.name)}</b></${tag}>`;
+}
+function tool(t){
+  return `<div class="item" tabindex="0" title="${esc(t.name)}"><img src="${esc(t.img)}" alt="${esc(t.name)}" loading="lazy"><b>${esc(t.name)}</b></div>`;
+}
+function groups(badges, tools){
+  let h = "";
+  if (badges.length) h += `<div class="group"><h4>🏅 Insignias <span class="count">${badges.length}</span></h4><div class="grid badges">${badges.map(badge).join("")}</div></div>`;
+  if (tools.length) h += `<div class="group"><h4>🛠️ Herramientas <span class="count">${tools.length}</span></h4><div class="grid tools">${tools.map(tool).join("")}</div></div>`;
+  return h;
+}
+function renderCats(){
+  if (!catsEl.children.length)
+    catsEl.innerHTML = DATA.map(c => `<button class="cat" role="tab" type="button" data-slug="${c.slug}" aria-controls="panel" title="${esc(c.name)}"><img src="${esc(c.icon)}" alt=""><span>${esc(c.name)}</span></button>`).join("");
+  const searching = !!q.value.trim();
+  catsEl.querySelectorAll(".cat").forEach(b => b.setAttribute("aria-selected", String(!searching && b.dataset.slug === current)));
+}
+function renderPanel(){
+  const term = q.value.trim().toLowerCase();
+  if (term){
+    const bs=[], ts=[];
+    DATA.forEach(c=>{ c.badges.forEach(b=>b.name.toLowerCase().includes(term)&&bs.push(b)); c.tools.forEach(t=>t.name.toLowerCase().includes(term)&&ts.push(t)); });
+    panel.innerHTML = `<h3>Resultados para “${esc(q.value.trim())}”</h3><p class="desc">${bs.length+ts.length} coincidencias en todas las categorías.</p>` + (groups(bs,ts) || `<p class="empty">No encontré nada con ese nombre.</p>`);
+    return;
+  }
+  const c = DATA.find(x=>x.slug===current);
+  panel.innerHTML = `<h3>${esc(c.name)}</h3><p class="desc">${esc(c.desc)}</p>` + groups(c.badges, c.tools);
+}
+function select(slug, push){
+  current = slug; q.value = "";
+  renderCats(); renderPanel();
+  if (push) history.replaceState(null, "", "#" + slug);
+}
+catsEl.addEventListener("mouseover", e => { const b = e.target.closest(".cat"); if (b && (b.dataset.slug !== current || q.value)) select(b.dataset.slug, false); });
+catsEl.addEventListener("click", e => { const b = e.target.closest(".cat"); if (b) select(b.dataset.slug, true); });
+catsEl.addEventListener("focusin", e => { const b = e.target.closest(".cat"); if (b && (b.dataset.slug !== current || q.value)) select(b.dataset.slug, false); });
+q.addEventListener("input", () => { renderCats(); renderPanel(); });
+const fromHash = location.hash.slice(1);
+if (DATA.some(c=>c.slug===fromHash)) current = fromHash;
+renderCats(); renderPanel();
+$("#y").textContent = new Date().getFullYear();
+// tema
+const root = document.documentElement;
+try{ const t = localStorage.getItem("theme"); if (t) root.dataset.theme = t; }catch(e){}
+$("#theme").addEventListener("click", () => {
+  const dark = root.dataset.theme ? root.dataset.theme === "dark" : !matchMedia("(prefers-color-scheme: light)").matches;
+  root.dataset.theme = dark ? "light" : "dark";
+  try{ localStorage.setItem("theme", root.dataset.theme); }catch(e){}
+});
+</script>
+</body>
+</html>
