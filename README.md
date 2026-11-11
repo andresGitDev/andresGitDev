@@ -49,15 +49,7 @@
 **Formación y lenguajes**
 
 <div align="left">
-  <a href="https://www.linkedin.com/in/andres-gonzalez-2a391467/">
-    <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/logic.png" height="50" width="55" title="Insignia Lógica" alt="Insignia Lógica"/>
-  </a>
-  <a href="https://www.linkedin.com/in/andres-gonzalez-2a391467/">
-    <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/java.png" height="50" width="55" title="Insignia Java (Oracle ONE)" alt="Insignia Java (Oracle ONE)"/>
-  </a>
-  <a href="https://www.linkedin.com/in/andres-gonzalez-2a391467/">
-    <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/sql-java.png" height="50" width="55" title="Insignia SQL + Java" alt="Insignia SQL + Java"/>
-  </a>
+  <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/logic.png" height="50" width="55" title="Insignia Lógica" alt="Insignia Lógica"/>
   <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/badges/utn.svg?v=2" height="50" width="55" title="Insignia UTN" alt="Insignia UTN"/>
   <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/badges/java.svg?v=2" height="50" width="55" title="Insignia Java" alt="Insignia Java"/>
   <img src="https://raw.githubusercontent.com/andresGitDev/andresGitDev/main/images/badges/javascript.svg?v=2" height="50" width="55" title="Insignia JavaScript" alt="Insignia JavaScript"/>
