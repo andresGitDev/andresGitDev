@@ -32,6 +32,8 @@ header.top .wrap{display:flex;align-items:center;gap:16px;height:60px}
 nav{display:flex;gap:4px;margin-left:auto;flex-wrap:wrap}
 nav a{text-decoration:none;color:var(--muted);padding:6px 12px;border-radius:999px;font-size:14px}
 nav a:hover{background:var(--bg2);color:var(--text)}
+.back{display:inline-flex;align-items:center;gap:6px;text-decoration:none;font-size:14px;font-weight:600;padding:7px 14px;border-radius:999px;border:1px solid var(--accent);color:var(--text);background:color-mix(in srgb,var(--accent) 12%,transparent);transition:background .15s,transform .15s;white-space:nowrap}
+.back:hover,.back:focus-visible{background:var(--accent);color:#111;transform:translateX(-2px);outline:none}
 #theme{margin-left:4px;border:1px solid var(--line);background:var(--card);color:var(--text);border-radius:999px;width:36px;height:36px;cursor:pointer;font-size:16px}
 .hero{padding:56px 0 24px;display:grid;grid-template-columns:auto 1fr;gap:32px;align-items:center}
 .avatar{width:168px;height:168px;border-radius:50%;border:4px solid var(--accent);box-shadow:var(--shadow);object-fit:cover;background:var(--bg2)}
@@ -83,12 +85,13 @@ h2{font-size:26px;margin:0 0 6px}
 .stats img{max-width:100%;border-radius:var(--radius);border:1px solid var(--line);background:#0b1118}
 footer{padding:32px 0 48px;color:var(--muted);border-top:1px solid var(--line);margin-top:24px;font-size:14px;text-align:center}
 @media (max-width:900px){.cats{grid-template-columns:repeat(3,1fr)}.hero{grid-template-columns:1fr;text-align:center;justify-items:center}.bio li{text-align:left}.contact{justify-content:center}nav a{padding:6px 8px}}
-@media (max-width:520px){nav{display:none}.cat img{width:52px;height:52px}}
+@media (max-width:520px){nav{display:none}.brand{display:none}.cat img{width:52px;height:52px}}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
 </head>
 <body>
 <header class="top"><div class="wrap">
+  <a class="back" href="https://github.com/andresGitDev" title="Volver al perfil de GitHub">← Volver a GitHub</a>
   <a class="brand" href="#inicio">Andres<span>.Git.</span>Dev</a>
   <nav aria-label="Principal"><a href="#inicio">Sobre mí</a><a href="#habilidades">Insignias y herramientas</a><a href="#estadisticas">Estadísticas</a></nav>
   <button id="theme" type="button" aria-label="Cambiar tema" title="Cambiar tema">🌓</button>
