@@ -36,9 +36,9 @@
 
 <br clear="both">
 <div align="left">
-  <img src="https://andres-readme-stats.vercel.app/api?hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=codeSTACKr&locale=en&username=andresGitDev"
+  <img src="https://andres-readme-stats.vercel.app/api?hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=tokyonight&locale=en&username=andresGitDev"
    height="150" alt="stats graph"  />
-  <img src="https://andres-readme-stats.vercel.app/api/top-langs?locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=codeSTACKr&username=andresGitDev" height="150" alt="languages graph"  />
+  <img src="https://andres-readme-stats.vercel.app/api/top-langs?locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=tokyonight&username=andresGitDev" height="150" alt="languages graph"  />
 </div>
 
 ###
