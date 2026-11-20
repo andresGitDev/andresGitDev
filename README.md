@@ -36,10 +36,9 @@
 
 <br clear="both">
 <div align="left">
-  <img src="https://github-readme-stats-mu-murex-72.vercel.app/api?hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=tokyonight&locale=en&username=andresGitDev"
+  <img src="https://github-readme-stats-mu-murex-72.vercel.app/api?hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&rank_icon=github&count_private=true&disable_animations=false&theme=tokyonight&locale=en&username=andresGitDev"
    height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats-mu-murex-72.vercel.app/api/top-langs?locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&hide=c&theme=tokyonight&username=andresGitDev" height="150" alt="languages graph"  />
-  <img src="https://github-readme-stats-mu-murex-72.vercel.app/api/top-langs?locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&size_weight=0&count_weight=1&custom_title=Languages%20by%20repos&theme=tokyonight&username=andresGitDev" height="150" alt="languages by repos graph"  />
+  <img src="https://github-readme-stats-mu-murex-72.vercel.app/api/top-langs?locale=en&hide_title=false&layout=pie&card_width=320&langs_count=5&hide=c&theme=tokyonight&username=andresGitDev" height="330" alt="languages graph"  />
 </div>
 
 ###
