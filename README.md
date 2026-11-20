@@ -1,7 +1,12 @@
+<div align="left">
+  <img src="https://github-readme-stats-mu-murex-72.vercel.app/api?hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&rank_icon=github&count_private=true&disable_animations=false&theme=tokyonight&locale=en&username=andresGitDev"
+   height="150" alt="stats graph"  />
+</div>
+
 - 👋 Hi, I’m @andresGitDev
-- 👀 I’m software development (Frontend-React and Backend-Java)
-- 🌱 I am always learning new technologies.
-- 💞️ I seek to grow and help grow in business systems projects.
+- 🤖 Software developer (Frontend-React and Backend-Java) building with AI: agents, LLM-assisted development and automation.
+- 🌱 Always learning new technologies, with a focus on applied AI.
+- 💞️ I seek to grow and help grow in business systems projects, bringing AI into real workflows.
 - 📫 How to contact me...
 
 <br clear="both">
@@ -36,8 +41,6 @@
 
 <br clear="both">
 <div align="left">
-  <img src="https://github-readme-stats-mu-murex-72.vercel.app/api?hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&rank_icon=github&count_private=true&disable_animations=false&theme=tokyonight&locale=en&username=andresGitDev"
-   height="150" alt="stats graph"  />
   <img src="https://github-readme-stats-mu-murex-72.vercel.app/api/top-langs?locale=en&hide_title=false&layout=donut&card_width=320&langs_count=5&hide=c&theme=tokyonight&username=andresGitDev" height="180" alt="languages graph"  />
 </div>
 
